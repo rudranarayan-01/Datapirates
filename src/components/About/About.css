@@ -1,0 +1,45 @@
+
+
+.abt{
+    margin: 1rem;
+    display: flex;
+}
+
+.first,.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+.abt-card{
+    display: flex;
+    flex-direction: row;
+}
+.abt-prf{
+  width: 260px;
+  height: 320px;  
+  padding: 10px;
+  border: 2px solid rgb(177, 173, 173);
+  border-radius: 12%;
+  margin: 20px;
+}
+
+.about-txt{
+    margin-top: 5rem;
+    font-size: 14px;
+}
+
+.second{
+    margin-top: 15rem;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .first,.second{
+        flex-direction: column;
+    }
+}
